@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Estilização da scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #000; /* Fundo preto */
+    border-radius: 9999px; /* Totalmente arredondado */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff85; /* Barra branca */
+    border-radius: 9999px; /* Totalmente arredondado */
+  
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ccc; /* Um hover opcional mais suave */
+  }
+}
+
+@keyframes scroll-horizontal {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
