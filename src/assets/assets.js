@@ -22,14 +22,14 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
+import img1 from './capa-episodio.jpg'
+import podcastex from './podcast-ex.png'
+import episodioex from './episodio-ex.png'
 import img4 from './img4.jpg'
 import img5 from './img5.jpg'
 import img6 from './img6.jpg'
 import img7 from './img7.jpg'
-import img8 from './img8.jpg'
+import img8 from './capa-podcast.jpg'
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
@@ -74,58 +74,20 @@ export const albumsData = [
         id: 0,
         name: "Arquivo Global",
         image: img8,
-        fulldesc: "Completa desc Your weekly update of the most played tracks",
-        desc: "Your weekly update of the most played tracks",
-        bgColor: "#2a4365"
+        fulldesc: "O História Global é um podcast feito para quem quer entender melhor o passado e como ele ainda influencia o mundo de hoje. Aqui, você vai ouvir histórias sobre acontecimentos importantes da história moderna e contemporânea, como a formação dos impérios, as grandes guerras, as revoluções e muitos outros temas que ajudaram a construir o mundo em que vivemos. Cada episódio é apresentado de forma clara, leve e com explicações simples, para que qualquer pessoa possa acompanhar, mesmo que não tenha estudado muito sobre o assunto antes.",
+        desc: "Um podcast que explica os acontecimentos do mundo.",
+        bgColor: "#2a4365",
+        produzido:"Moises Santos, Rayris Teles"
+
+
     },
     {
         id: 1,
-        name: "Top 50 India",
-        image: img9,
-        desc: "Your weekly update of the most played tracks",
-        bgColor: "#22543d"
-    },
-    {
-        id: 2,
-        name: "Trending India",
-        image: img10,
-        desc: "Your weekly update of the most played tracks",
-        bgColor: "#742a2a"
-    },
-    {
-        id: 3,
-        name: "Trending Global",
-        image: img16,
-        desc: "Your weekly update of the most played tracks",
-        bgColor: "#44337a"
-    },
-    {
-        id: 4,
-        name: "Mega Hits,",
-        image: img11,
-        desc: "Your weekly update of the most played tracks",
-        bgColor: "#234e52"
-    },
-    {
-        id: 5,
-        name: "Happy Favorites",
-        image: img15,
-        desc: "Your weekly update of the most played tracks",
-        bgColor: "#744210"
-    },
-    {
-        id: 6,
-        name: "Happy Favorites",
-        image: img15,
-        desc: "Your weekly update of the most played tracks",
-        bgColor: "#744210"
-    },
-    {
-        id: 7,
-        name: "Happy Favorites",
-        image: img15,
-        desc: "Your weekly update of the most played tracks",
-        bgColor: "#744210"
+        name: "NOME DO PODCAST",
+        image: podcastex,
+        desc: "Aqui podemos colocar uma pequena frase.",
+        bgColor: "#22543d",
+        produzido:"MEMBROS DO GRUPO"
     }
 ]
 
@@ -135,65 +97,23 @@ export const songsData = [
         name: "Alianças e a Primeira Guerra Mundial",
         image: img1,
         file: song1,
-        desc: "Put a smile on your face with these happy tunes",
+        desc: "Neste episódio, analisamos como o sistema de alianças contribuiu para transformar um conflito regional em uma guerra de escala global. Entenda como a Tríplice Aliança e a Tríplice Entente criaram um ambiente de tensão entre as potências europeias, e como esse cenário acabou culminando no início da Primeira Guerra Mundial.",
         duration: "3:00",
-        album:0,
+        album: 0,
         podcast: "Arquivo Global",
+        tema: "Primeira Guerra Mundial",
+
     },
     {
         id: 1,
-        name: "Song Two",
-        image: img2,
-        file: song2,
-        desc: "Put a smile on your face with these happy tunes",
-        duration: "2:20"
-    },
-    {
-        id: 2,
-        name: "Song Three",
-        image: img3,
-        file: song3,
-        desc: "Put a smile on your face with these happy tunes",
-        duration: "2:32"
-    },
-    {
-        id: 3,
-        name: "Song Four",
-        image: img4,
+        name: "EXEMPLO DE EPISODIO",
+        image: episodioex,
         file: song1,
-        desc: "Put a smile on your face with these happy tunes",
-        duration: "2:50"
+        desc: "AQUI FICA A DESCRIÇÃO DO EPISODIO.",
+        duration: "0:00",
+        album: 1,
+        podcast: "Arquivo Global",
+        tema: "TEMA DO EPISODIO",
     },
-    {
-        id: 4,
-        name: "Song Five",
-        image: img5,
-        file: song2,
-        desc: "Put a smile on your face with these happy tunes",
-        duration: "3:10"
-    },
-    {
-        id: 5,
-        name: "Song Six",
-        image: img14,
-        file: song3,
-        desc: "Put a smile on your face with these happy tunes",
-        duration: "2:45"
-    },
-    {
-        id: 6,
-        name: "Song Seven",
-        image: img7,
-        file: song1,
-        desc: "Put a smile on your face with these happy tunes",
-        duration: "2:18"
-    },
-    {
-        id: 7,
-        name: "Song Eight",
-        image: img12,
-        file: song2,
-        desc: "Put a smile on your face with these happy tunes",
-        duration: "2:35"
-    }
+
 ]
