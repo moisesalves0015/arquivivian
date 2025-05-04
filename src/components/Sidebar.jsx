@@ -15,7 +15,7 @@ const Sidebar = () => {
             <div className='bg-[#121212] h-[15%] rounded flex flex-col justify-around'>
                 <div className='flex items-center gap-3 pl-8 cursor-pointer'>
                   
-                    <p className='font-bold text-4xl'>ARQUIVIVIAN</p>
+                    <p className='font-bold text-4xl'>História Pública</p>
                 </div>
                 
             </div>
