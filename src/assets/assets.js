@@ -22,12 +22,15 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
+
 import img1 from './capa-episodio.jpg'
 import podcastex from './podcast-ex.png'
 import episodioex from './episodio-ex.png'
-import img4 from './img4.jpg'
-import img5 from './img5.jpg'
-import img6 from './img6.jpg'
+
+import anaclarapodcast from './anaclara-podcast.jpeg'
+import anaclaraepisodio from './anaclara-episodio.png'
+import anaclaraaudio from './anaclaraaudio.mp3'
+
 import img7 from './img7.jpg'
 import img8 from './capa-podcast.jpg'
 import img9 from './img9.jpg'
@@ -78,11 +81,20 @@ export const albumsData = [
         desc: "Um podcast que explica os acontecimentos do mundo.",
         bgColor: "#2a4365",
         produzido:"Moises Santos, Rayris Teles"
+    },
+    {
+        id: 1,
+        name: "Históri-A-na",
+        image: anaclarapodcast,
+        fulldesc: "O Históri-A-na é um podcast feito especialmente para alunos do 9º ano do Ensino Fundamental, com o objetivo de tornar o estudo da História do Brasil do século XX mais envolvente e próximo do cotidiano dos estudantes. Com uma linguagem acessível e toques narrativos, esse podcast busca abordar assuntos pouco explorados, como a cultura afro-brasileira, processos de resistência, além de trajetórias de figuras marcantes. Cada episódio é um convite para conhecer um Brasil feito de vozes diversas — vozes que desafiaram o silêncio da história oficial. O Históri-A-na nasceu de uma disciplina da Graduação em História da Universidade do Estado do Rio de Janeiro sobre Ensino de História e História Pública.",
+        desc: "Com uma linguagem acessível e toques narrativos, esse podcast busca abordar assuntos pouco explorados.",
+        bgColor: "#2a4365",
+        produzido:"Ana Clara Passos"
 
 
     },
     {
-        id: 1,
+        id: 2,
         name: "NOME DO PODCAST",
         image: podcastex,
         desc: "Aqui podemos colocar uma pequena frase.",
@@ -103,15 +115,28 @@ export const songsData = [
         podcast: "Arquivo Global",
         tema: "Primeira Guerra Mundial",
 
-    },
+    },  
     {
         id: 1,
+        name: "Histórias que o livro não conta: Tia Ciata e a República Negra",
+        image: anaclaraepisodio,
+        file: anaclaraaudio,
+        desc: "Neste episódio, vamos conhecer a história de Tia Ciata: uma mulher negra que se destacou no cenário cultural e social no Brasil da pós-Abolição. Mesmo com o fim oficial da Escravidão, o povo negro continuava enfrentando muitas dificuldades. Tia Ciata usou a música, a fé e a culinária como formas de resistência e criou um espaço de valorização da cultura afro-brasileira. Sua casa no Rio virou ponto de encontro de sambistas, religiosos e artistas. No episódio de hoje, vamos juntos entender como ela, e muitas outras mulheres negras, romperam barreiras e mantiveram viva uma herança cultural que segue inspirando até hoje.",
+        duration: "19:12",
+        album: 1,
+        podcast: "Históri-A-na",
+        tema: "Tia Ciata",
+
+    },
+
+    {
+        id: 99,
         name: "EXEMPLO DE EPISODIO",
         image: episodioex,
         file: song1,
         desc: "AQUI FICA A DESCRIÇÃO DO EPISODIO.",
         duration: "0:00",
-        album: 1,
+        album: 99,
         podcast: "Arquivo Global",
         tema: "TEMA DO EPISODIO",
     },
