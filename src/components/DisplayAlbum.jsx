@@ -32,7 +32,7 @@ const DisplayAlbum = () => {
                 <p><b className='mr-4'>#</b>Titulo</p>
                 <p className='hidden sm:block'>Tema</p>
                 <p className='hidden sm:block'>Descrição</p>
-                <img className='m-auto w-4' src={assets.clock_icon} alt="" />
+                <img className='m-auto w-4 hidden sm:block' src={assets.clock_icon} alt="" />
             </div>
             <hr />
             {
@@ -47,7 +47,7 @@ const DisplayAlbum = () => {
                             </p>
                             <p className='text-[15px] hidden sm:block'>{item.tema}</p>
                             <p className='text-[15px] hidden sm:block'>{item.desc}</p>
-                            <p className='text-[15px] text-center'>{item.duration}</p>
+                            <p className='text-[15px] text-center hidden sm:block'>{item.duration}</p>
                         </div>
                     ))
             }
