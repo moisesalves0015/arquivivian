@@ -31,8 +31,11 @@ import anaclarapodcast from './anaclara-podcast.jpeg'
 import anaclaraepisodio from './anaclara-episodio.png'
 import anaclaraaudio from './anaclaraaudio.mp3'
 
+import moisesaudio from './moisesaudio.mp3'
+
 import img7 from './img7.jpg'
 import img8 from './capa-podcast.jpg'
+
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
@@ -41,7 +44,7 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import song1 from './song1.mp3'
+
 import song2 from './song2.mp3'
 import song3 from './song3.mp3'
 
@@ -108,9 +111,9 @@ export const songsData = [
         id: 0,
         name: "Alianças e a Primeira Guerra Mundial",
         image: img1,
-        file: song1,
+        file: moisesaudio,
         desc: "Neste episódio, analisamos como o sistema de alianças contribuiu para transformar um conflito regional em uma guerra de escala global. Entenda como a Tríplice Aliança e a Tríplice Entente criaram um ambiente de tensão entre as potências europeias, e como esse cenário acabou culminando no início da Primeira Guerra Mundial.",
-        duration: "3:00",
+        duration: "18:42",
         album: 0,
         podcast: "Arquivo Global",
         tema: "Primeira Guerra Mundial",
