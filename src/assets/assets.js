@@ -117,7 +117,7 @@ export const songsData = [
 
     },
     {
-        id: 2,
+        id: 1,
         name: "Histórias que o livro não conta: Tia Ciata e a República Negra",
         image: anaclaraepisodio,
         file: anaclaraaudio,
@@ -130,7 +130,7 @@ export const songsData = [
     },
 
     {
-        id: 3,
+        id: 2,
         name: "EXEMPLO DE EPISODIO",
         image: episodioex,
         file: song3,
