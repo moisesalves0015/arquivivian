@@ -128,15 +128,27 @@ export const songsData = [
         tema: "Tia Ciata",
 
     },
+    {
+        id: 2,
+        name: "Histórias que o livro não conta: Tia Ciata e a República Negra",
+        image: anaclaraepisodio,
+        file: anaclaraaudio,
+        desc: "Neste episódio, vamos conhecer a história de Tia Ciata: uma mulher negra que se destacou no cenário cultural e social no Brasil da pós-Abolição. Mesmo com o fim oficial da Escravidão, o povo negro continuava enfrentando muitas dificuldades. Tia Ciata usou a música, a fé e a culinária como formas de resistência e criou um espaço de valorização da cultura afro-brasileira. Sua casa no Rio virou ponto de encontro de sambistas, religiosos e artistas. No episódio de hoje, vamos juntos entender como ela, e muitas outras mulheres negras, romperam barreiras e mantiveram viva uma herança cultural que segue inspirando até hoje.",
+        duration: "19:12",
+        album: 1,
+        podcast: "Históri-A-na",
+        tema: "Tia Ciata",
+
+    },
 
     {
-        id: 99,
+        id: 3,
         name: "EXEMPLO DE EPISODIO",
         image: episodioex,
-        file: song1,
+        file: song3,
         desc: "AQUI FICA A DESCRIÇÃO DO EPISODIO.",
         duration: "0:00",
-        album: 99,
+        album: 1,
         podcast: "Arquivo Global",
         tema: "TEMA DO EPISODIO",
     },

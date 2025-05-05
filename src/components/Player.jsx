@@ -15,7 +15,7 @@ const Player = () => {
           <p>{track.podcast}</p>
         </div>
       </div>
-      <div className='flex flex-col items-center gap-1 m-auto'>
+      <div className='flex flex-col items-center gap-1 m-auto max-w-[70%]'>
         <div className=' lg:hidden'>
           <p className='text-center font-medium'>{track.podcast}</p>
           <p className='inline-block animate-marquee text-lg whitespace-nowrap' > {track.name}</p>

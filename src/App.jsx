@@ -8,7 +8,7 @@ import { PlayerContext } from './context/PlayerContext'
 const App = () => {
 
 const {audioRef, track} = useContext(PlayerContext)
-
+console.log("Valor de track no App:", track);
   return (
     <div className="h-screen bg-black ">
       <div className="h-[90%] flex ">
