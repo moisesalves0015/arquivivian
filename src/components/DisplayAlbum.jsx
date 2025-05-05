@@ -28,7 +28,7 @@ const DisplayAlbum = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 sm:grid-cols-4 mt-10 mb-4 pl-2 text-[#a7a7a7]'>
+            <div className='grid grid-cols-1 sm:grid-cols-4 mt-10 mb-4 pl-2 text-[#a7a7a7]'>
                 <p><b className='mr-4'>#</b>Titulo</p>
                 <p className='hidden sm:block'>Tema</p>
                 <p className='hidden sm:block'>Descrição</p>
@@ -39,7 +39,7 @@ const DisplayAlbum = () => {
                 songsData
                     .filter(song => song.album === Number(id)) // filtra apenas as músicas do álbum atual
                     .map((item, index) => (
-                        <div onClick={() => playWithId(item.id)} key={index} className='grid grid-cols-2 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'>
+                        <div onClick={() => playWithId(item.id)} key={index} className='grid grid-cols-1 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'>
                             <p className='text-white flex'>
                                 <b className='mr-4 text-[#a7a7a7]'>{index + 1}</b>
                                 <img className=' w-10 h-10 mr-5' src={item.image} alt="" />
